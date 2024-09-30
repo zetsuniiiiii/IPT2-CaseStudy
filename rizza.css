@@ -49,3 +49,60 @@ body {
 .btn:hover {
     background-color: #c70039;
 }
+
+.portfolio {
+    padding: 4rem 0;
+    background-color: #a59e9e;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: #333;
+    position: relative;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ff5733;
+}
+
+.project p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project:hover img {
+    transform: scale(1.05);
+}
