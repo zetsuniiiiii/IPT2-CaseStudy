@@ -184,3 +184,134 @@ nav a:hover::after {
     border-radius: 30%;
     width: 550px;
 }
+
+/* About section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 9em;
+    background: rgb(255, 255, 255);
+}
+
+.about-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-img img {
+    position: relative;
+    width: 550px;
+    border-radius: 0%;
+}
+
+.about-content h2 {
+    text-align: left;
+    font-size: 42px;
+}
+
+.about-content h3 {
+    font-size: 35px;
+}
+
+.about-content p {
+    font-size: 18x;
+    margin: 2em 0 2em;
+}
+
+.about-content a {
+    color: rgb(3, 81, 81);
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+/* Contact Section */
+.contact-form h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+
+.contact-form form {
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-form form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input, 
+.contact-form form textarea {
+    width: 100%;
+    padding: 1em;
+    font-size: 18px;
+    color: black;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.contact-form {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+/* Footer Section */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
