@@ -164,3 +164,34 @@ button {
 button:hover {
     background-color: #444; 
 }
+
+footer {
+    color: white;
+    height: 75px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0; 
+}
+  
+.social-icons li {
+    margin: 0 10px; 
+}
+  
+.social-icons a {
+    color: #000000; 
+    text-decoration: none;
+}
+  
+.social-icons i {
+    font-size: 100px;
+}
