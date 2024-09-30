@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #e6e4e4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between, left;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color: #e6e4e4;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.logo img {
+    max-height: 100px;
+    margin-right: 70px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #171616;
+    padding-right: 20px;
+}
